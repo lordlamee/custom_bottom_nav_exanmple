@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'custom_painting_exer.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BMNavigationView(),
+      home: const CustomPaintViewScreen(),
     );
   }
 }
@@ -189,4 +191,16 @@ class CustomNavigationItem {
 
   bool get isLabel => icon == null;
   bool get isIcon => label == null;
+
+  Widget method1() {
+    return SizedBox();
+  }
+
+  Widget method2() {
+    return SizedBox();
+  }
+
+  Widget method3() {
+    return SizedBox();
+  }
 }
